@@ -1,7 +1,7 @@
 # udn-crawler-2021 
 爬取聯合報網站的範例程式碼，只使用 request。
 
-<img src='img/output_example.png' weight=300 height=200>
+![output example](img/output_example.png)
 
 ## Pipeline
 1. 使用 `keyword` 搜尋 udn 網站
