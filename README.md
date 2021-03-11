@@ -1,8 +1,21 @@
 # udn-crawler-2021 
 爬取聯合報網站的範例程式碼，只使用 request。
+[](img/output_example.png)
 
-![output example](img/output_example.png)
-
+## 目錄架構
+```
+Project_udn-crawler-2021
+    ├── data
+    │   └── keywords.csv
+    ├── output
+    │   └── ...    
+    ├── LICENSE
+    ├── README.md
+    ├── crawler.py
+    ├── final_data.py
+    ├── pipeline_test.py
+    └── requirements.txt
+```
 ## Pipeline
 1. 使用 `keyword` 搜尋 udn 網站
 2. 獲取搜尋結果網址列表
